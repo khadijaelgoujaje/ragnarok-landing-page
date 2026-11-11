@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ragnarok: The New World — Jouer gratuitement sur Steam</title><meta name="description" content="MMORPG en monde ouvert Ragnarok, gratuit à installer, sur PC et mobile.">
+<meta property="og:title" content="Ragnarok: The New World — Jouer gratuitement sur Steam"><meta property="og:description" content="MMORPG en monde ouvert Ragnarok, gratuit à installer, sur PC et mobile."><meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/ca0955a4753bbaa1ccc462f3126ee225cffab39d/capsule_616x353.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f1226;--bg2:#171b3a;--card:#1d2248;--ink:#eef0ff;--mut:#aab0d8;--acc:#ffc94d;--acc2:#8b5cf6;--line:#2c3270}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Prompt","Noto Sans Thai","Sarabun",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+img{max-width:100%;display:block}a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;z-index:20;background:rgba(15,18,38,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:60px}
+.brand{font-weight:700;letter-spacing:.3px}
+nav{display:flex;gap:18px;font-size:14px;color:var(--mut)}nav a{text-decoration:none}nav a:hover{color:var(--ink)}
+.lang{font-size:13px;font-weight:700;color:var(--mut);text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:4px 9px}.lang:hover{color:var(--ink)}
+.btn{display:inline-block;background:linear-gradient(180deg,#ffd978,#ffb21f);color:#2a1d00;font-weight:700;text-decoration:none;padding:14px 28px;border-radius:999px;box-shadow:0 8px 24px rgba(255,178,31,.28);transition:transform .15s,box-shadow .15s;white-space:nowrap}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(255,178,31,.4)}.btn.sm{padding:9px 18px;font-size:14px}
+.btn:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--acc2);outline-offset:3px}
+.hero{position:relative;min-height:78vh;display:flex;align-items:center;background:linear-gradient(135deg,#2b1f6b,#0f1226 60%)}
+.hero .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,18,38,.92) 0%,rgba(15,18,38,.55) 55%,rgba(15,18,38,.15) 100%)}
+.hero .wrap{position:relative;z-index:2;padding-top:56px;padding-bottom:56px}
+.hero h1{font-size:clamp(30px,5.2vw,54px);line-height:1.2;margin:0 0 16px;max-width:15em}
+.hero p.sub{font-size:clamp(16px,2.2vw,20px);color:#dfe2ff;max-width:34em;margin:0 0 26px}
+.note{margin:12px 0 0;font-size:14px;color:var(--mut)}
+section{padding:72px 0}section:nth-of-type(even){background:var(--bg2)}
+h2{font-size:clamp(24px,3.6vw,36px);line-height:1.25;margin:0 0 10px}
+.lead{color:var(--mut);margin:0 0 28px;max-width:44em}
+.video{position:relative;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:#000;aspect-ratio:16/9}
+.video video{width:100%;height:100%;object-fit:cover;background:#000}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.card h3{margin:0 0 8px;font-size:18px;color:var(--acc)}.card p{margin:0;color:#dfe2ff}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:26px}
+.gallery figure{margin:0;border-radius:14px;overflow:hidden;background:linear-gradient(135deg,#2b1f6b,#171b3a);aspect-ratio:16/9;border:1px solid var(--line)}
+.gallery img,.gallery video{width:100%;height:100%;object-fit:cover;display:block}
+.gallery.two{grid-template-columns:repeat(2,1fr)}
+.info{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.info .card h3{color:var(--ink);font-size:16px}
+.steps{counter-reset:s;list-style:none;margin:26px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.steps li{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:48px 16px 18px;position:relative}
+.steps li:before{content:counter(s);position:absolute;left:16px;top:12px;width:30px;height:30px;border-radius:50%;background:var(--acc2);display:grid;place-items:center;font-weight:700}
+h3.st{margin:34px 0 0;font-size:20px}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;margin:0 0 10px;padding:0}
+summary{cursor:pointer;padding:16px 20px;font-weight:600;list-style:none}summary::-webkit-details-marker{display:none}
+summary:after{content:"+";float:right;color:var(--acc);font-size:20px;line-height:1}details[open] summary:after{content:"–"}
+details p{margin:0;padding:0 20px 18px;color:#dfe2ff}
+.final{text-align:center;background:linear-gradient(160deg,#2b1f6b,#0f1226)}
+.final h2{margin-bottom:10px}.final p{color:var(--mut);margin:0 0 24px}
+footer{padding:28px 0 90px;color:var(--mut);font-size:13px;text-align:center;border-top:1px solid var(--line)}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px 16px;background:rgba(15,18,38,.95);border-top:1px solid var(--line);display:none;text-align:center}
+.sticky .btn{display:block;text-align:center}
+@media(max-width:820px){nav{display:none}.grid3,.gallery,.info{grid-template-columns:1fr}.gallery.two{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.sticky{display:block}section{padding:52px 0}}
+@media(max-width:480px){.steps{grid-template-columns:1fr}.hero{min-height:70vh}}
+@media(prefers-reduced-motion:reduce){.hero video{display:none}*{transition:none!important;scroll-behavior:auto!important}}
+</style></head><body>
+<header><div class="wrap"><span class="brand">Ragnarok: The New World</span><nav><a href="#jeu">Jeu</a><a href="#classes">Classes</a><a href="#monde">Monde</a><a href="#infos">Infos</a><a href="#faq">FAQ</a></nav><a class="lang" hreflang="th" href="index.html">TH</a><a class="btn sm cta" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" rel="noopener" data-cta="header">Jouer gratuitement sur Steam</a></div></header>
+<main>
+<!-- 1. HERO -->
+<section class="hero" style="padding:0"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/cfab5e170a952d5178e993a6f6733b5562175a2d/ss_cfab5e170a952d5178e993a6f6733b5562175a2d.600x338.jpg" srcset="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/cfab5e170a952d5178e993a6f6733b5562175a2d/ss_cfab5e170a952d5178e993a6f6733b5562175a2d.600x338.jpg 600w, https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/cfab5e170a952d5178e993a6f6733b5562175a2d/ss_cfab5e170a952d5178e993a6f6733b5562175a2d.1920x1080.jpg 1920w" sizes="100vw" width="1920" height="1080" alt="Ragnarok: The New World" loading="eager" fetchpriority="high" decoding="async" onerror="this.style.display='none'" class="bg"><video class="bg" id="hv" muted loop playsinline preload="none" aria-hidden="true" data-src="assets/videos/hero.mp4" onerror="this.style.display='none'"></video>
+<div class="wrap"><h1>Explore Midgard. Choisis ta classe. Commence ton aventure.</h1><p class="sub">Un MMORPG en monde ouvert Ragnarok, gratuit à installer, sur PC et mobile.</p><a class="btn cta" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" rel="noopener" data-cta="hero">Jouer gratuitement sur Steam</a><p class="note">Free-to-play avec achats intégrés · Compte Gravity requis</p></div></section>
+<!-- 2. GAMEPLAY (video: assets/videos/gameplay-pv.mp4) -->
+<section id="jeu"><div class="wrap"><h2>Vois le jeu avant de te décider</h2><p class="lead">Regarde Ragnarok: The New World en action.</p>
+<div class="video"><video controls preload="none" playsinline data-poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/ed50bc838811f72959e6f224334f2b8acdd8474a/ss_ed50bc838811f72959e6f224334f2b8acdd8474a.1920x1080.jpg" data-hls="https://video.akamai.steamstatic.com/store_trailers/4212480/39565784/97b667e6e8026376064390ed81cf54163913fbd8/1787307582/hls_264_master.m3u8?t=1787308459"><source src="assets/videos/gameplay-pv.mp4" type="video/mp4"></video></div></div></section>
+<!-- 3. CLASSES ET PERSONNALISATION -->
+<section id="classes"><div class="wrap"><h2>Huit classes, ton style de jeu</h2><div class="grid3"><div class="card"><h3>Druid</h3><p>Découvre le Druid, nouvelle classe qui change de forme : Werewolf, Wereraptor et Human Arcanist.</p></div><div class="card"><h3>Change de classe quand tu veux</h3><p>Change de classe quand tu veux ; les resets de compétences sont gratuits.</p></div><div class="card"><h3>Personnalise ton personnage</h3><p>Personnalise ton personnage avec plus de 100 apparences.</p></div></div>
+<div class="gallery"><figure><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/a5eee3c0eb5a78ae27e06ffc484e30df5492f173/ss_a5eee3c0eb5a78ae27e06ffc484e30df5492f173.600x338.jpg" srcset="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/a5eee3c0eb5a78ae27e06ffc484e30df5492f173/ss_a5eee3c0eb5a78ae27e06ffc484e30df5492f173.600x338.jpg 600w, https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/a5eee3c0eb5a78ae27e06ffc484e30df5492f173/ss_a5eee3c0eb5a78ae27e06ffc484e30df5492f173.1920x1080.jpg 1920w" sizes="(max-width:820px) 100vw, 346px" width="600" height="338" alt="Personnages et costumes" loading="lazy" decoding="async" onerror="this.style.display='none'"></figure><figure><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/613a821770b711254b794ec654887573b8e67d18/ss_613a821770b711254b794ec654887573b8e67d18.600x338.jpg" srcset="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/613a821770b711254b794ec654887573b8e67d18/ss_613a821770b711254b794ec654887573b8e67d18.600x338.jpg 600w, https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/613a821770b711254b794ec654887573b8e67d18/ss_613a821770b711254b794ec654887573b8e67d18.1920x1080.jpg 1920w" sizes="(max-width:820px) 100vw, 346px" width="600" height="338" alt="Personnalisation du personnage" loading="lazy" decoding="async" onerror="this.style.display='none'"></figure><figure><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/72c32dd5e97f198ae9662c35263d1a1d2011e632/ss_72c32dd5e97f198ae9662c35263d1a1d2011e632.600x338.jpg" srcset="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/72c32dd5e97f198ae9662c35263d1a1d2011e632/ss_72c32dd5e97f198ae9662c35263d1a1d2011e632.600x338.jpg 600w, https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/72c32dd5e97f198ae9662c35263d1a1d2011e632/ss_72c32dd5e97f198ae9662c35263d1a1d2011e632.1920x1080.jpg 1920w" sizes="(max-width:820px) 100vw, 346px" width="600" height="338" alt="Groupe de personnages" loading="lazy" decoding="async" onerror="this.style.display='none'"></figure></div></div></section>
+<!-- 4. MONDE ET JOUER A PLUSIEURS -->
+<section id="monde"><div class="wrap"><h2>Un monde ouvert à explorer, des amis avec qui jouer</h2><p class="lead">Parcours un vaste monde ouvert, affronte des boss, dompte des MVP pour en faire tes montures et forme un groupe ou une guilde avec tes amis.</p>
+<div class="gallery"><figure><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/49379583f1a9b7b785fb5e8df9999444b4adca02/ss_49379583f1a9b7b785fb5e8df9999444b4adca02.600x338.jpg" srcset="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/49379583f1a9b7b785fb5e8df9999444b4adca02/ss_49379583f1a9b7b785fb5e8df9999444b4adca02.600x338.jpg 600w, https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/49379583f1a9b7b785fb5e8df9999444b4adca02/ss_49379583f1a9b7b785fb5e8df9999444b4adca02.1920x1080.jpg 1920w" sizes="(max-width:820px) 100vw, 346px" width="600" height="338" alt="Ville du monde ouvert" loading="lazy" decoding="async" onerror="this.style.display='none'"></figure><figure><video id="bv" muted loop playsinline preload="none" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/ed50bc838811f72959e6f224334f2b8acdd8474a/ss_ed50bc838811f72959e6f224334f2b8acdd8474a.600x338.jpg" data-src="assets/videos/boss.mp4" aria-label="Combat contre un boss"></video></figure><figure><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/cfe6e884a847c78be6e677897be474b9db30c043/ss_cfe6e884a847c78be6e677897be474b9db30c043.600x338.jpg" srcset="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/cfe6e884a847c78be6e677897be474b9db30c043/ss_cfe6e884a847c78be6e677897be474b9db30c043.600x338.jpg 600w, https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/cfe6e884a847c78be6e677897be474b9db30c043/ss_cfe6e884a847c78be6e677897be474b9db30c043.1920x1080.jpg 1920w" sizes="(max-width:820px) 100vw, 346px" width="600" height="338" alt="Paysages du monde ouvert" loading="lazy" decoding="async" onerror="this.style.display='none'"></figure></div></div></section>
+<!-- 5. INFORMATIONS PRATIQUES -->
+<section id="infos"><div class="wrap"><h2>Ce qu&#x27;il faut savoir avant d&#x27;installer</h2><div class="info" style="margin-top:22px"><div class="card"><h3>Modèle</h3><p>Free-to-play avec achats intégrés.</p></div><div class="card"><h3>Compte</h3><p>Un compte Gravity se crée via le launcher du jeu, en plus de ton compte Steam.</p></div><div class="card"><h3>Configuration</h3><p>Minimum : 12 Go de RAM et 30 Go d&#x27;espace libre.</p></div><div class="card"><h3>Langues</h3><p>Anglais, thaï, indonésien et chinois simplifié.</p></div></div>
+<h3 class="st">Commence en 4 étapes</h3><ol class="steps"><li>Ouvre Steam et clique sur « Jouer au jeu ».</li><li>Installe le jeu.</li><li>Lance le jeu et crée ton compte Gravity dans le launcher.</li><li>Connecte-toi pour la première fois et commence l&#x27;aventure.</li></ol></div></section>
+<!-- 6. FAQ (reponses 4 et 5 a valider avec le client) -->
+<section id="faq"><div class="wrap" style="max-width:780px"><h2>Questions fréquentes</h2><div style="margin-top:22px"><details><summary>Le jeu est-il vraiment gratuit ?</summary><p>L&#x27;installation et le jeu sont gratuits ; des achats sont proposés dans le jeu.</p></details><details><summary>Faut-il un compte en plus de Steam ?</summary><p>Oui, un compte Gravity via le launcher.</p></details><details><summary>Quelle configuration PC faut-il ?</summary><p>Minimum 12 Go de RAM et 30 Go libres ; 16 Go de RAM recommandés.</p></details><details><summary>Puis-je jouer sur mobile ?</summary><p>Consulte les plateformes prises en charge sur la page du jeu sur Steam.</p></details><details><summary>Que faire si le jeu ne se lance pas ?</summary><p>Vérifie ta configuration (12 Go de RAM, 30 Go libres) et consulte les informations sur la page du jeu sur Steam.</p></details></div></div></section>
+<!-- 7. CTA FINAL -->
+<section class="final"><div class="wrap"><h2>Prêt à commencer ton aventure ?</h2><p>Free-to-play avec achats intégrés · 12 Go de RAM minimum.</p><a class="btn cta" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" rel="noopener" data-cta="final">Jouer gratuitement sur Steam</a></div></section>
+</main>
+<footer><div class="wrap">Page non officielle, créée dans le cadre d&#x27;un exercice d&#x27;acquisition. Le nom du jeu et les visuels appartiennent à Gravity Game Vision Limited.</div></footer>
+<div class="sticky"><a class="btn cta" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" rel="noopener" data-cta="sticky">Jouer gratuitement sur Steam</a></div>
+<script>
+var STEAM='https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/',VTXT='Voir la vidéo sur Steam';
+// Evenements de mesure (noms proposes dans le brief). Le suivi du lien est assure par AFBooster ;
+// ces evenements alimentent dataLayer si un outil d'analyse est branche. first_login = cote client.
+var hv=document.getElementById('hv'),c=navigator.connection||{};
+if(hv&&innerWidth>820&&!c.saveData&&!matchMedia('(prefers-reduced-motion:reduce)').matches){addEventListener('load',function(){hv.src=hv.dataset.src;hv.play().catch(function(){})})}else if(hv){hv.style.display='none'}
+var gv=document.querySelector('video[data-poster]');if(gv){var po=function(){gv.poster=gv.dataset.poster};if('IntersectionObserver'in window){new IntersectionObserver(function(e,o){if(e[0].isIntersecting){po();o.disconnect()}},{rootMargin:'300px'}).observe(gv)}else po()}
+var bv=document.getElementById('bv');if(bv&&'IntersectionObserver'in window&&!c.saveData&&!matchMedia('(prefers-reduced-motion:reduce)').matches){new IntersectionObserver(function(e){if(e[0].isIntersecting){if(!bv.src){bv.src=bv.dataset.src}bv.play().catch(function(){})}else bv.pause()},{threshold:.35}).observe(bv)}
+function imgFb(i){if(!i.dataset.f&&i.dataset.cdn){i.dataset.f=1;i.src=i.dataset.cdn}else{i.style.display='none'}}
+(function(){var v=document.querySelector('video[data-hls]');if(!v)return;var box=v.parentNode,tried=0;
+function fail(){if(box.querySelector('.vfb'))return;var a=document.createElement('a');a.className='btn vfb';a.href=STEAM;a.rel='noopener';a.textContent=VTXT;a.style.cssText='position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)';box.appendChild(a)}
+function hls(){if(tried)return fail();tried=1;var u=v.dataset.hls;
+if(v.canPlayType('application/vnd.apple.mpegurl')){v.src=u;v.load();v.play().catch(function(){});return}
+var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/hls.js@1';s.onerror=fail;
+s.onload=function(){if(window.Hls&&Hls.isSupported()){var h=new Hls();h.on(Hls.Events.ERROR,function(e,d){if(d.fatal)fail()});h.loadSource(u);h.attachMedia(v);h.on(Hls.Events.MANIFEST_PARSED,function(){v.play().catch(function(){})})}else fail()};document.head.appendChild(s)}
+v.querySelector('source').addEventListener('error',hls);
+v.addEventListener('error',function(){if(!tried)hls()});})();
+window.dataLayer=window.dataLayer||[];
+window.dataLayer.push({event:'landing_page_view',page:'ragnarok-tnw'});
+document.querySelectorAll('.cta').forEach(function(a){a.addEventListener('click',function(){window.dataLayer.push({event:'steam_outbound_click',position:a.getAttribute('data-cta'),destination:a.href});});});
+</script>
+</body></html>

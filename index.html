@@ -14,6 +14,7 @@ header{position:sticky;top:0;z-index:20;background:rgba(15,18,38,.92);backdrop-f
 header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:60px}
 .brand{font-weight:700;letter-spacing:.3px}
 nav{display:flex;gap:18px;font-size:14px;color:var(--mut)}nav a{text-decoration:none}nav a:hover{color:var(--ink)}
+.lang{font-size:13px;font-weight:700;color:var(--mut);text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:4px 9px}.lang:hover{color:var(--ink)}
 .btn{display:inline-block;background:linear-gradient(180deg,#ffd978,#ffb21f);color:#2a1d00;font-weight:700;text-decoration:none;padding:14px 28px;border-radius:999px;box-shadow:0 8px 24px rgba(255,178,31,.28);transition:transform .15s,box-shadow .15s;white-space:nowrap}
 .btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(255,178,31,.4)}.btn.sm{padding:9px 18px;font-size:14px}
 .btn:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var(--acc2);outline-offset:3px}
@@ -55,7 +56,7 @@ footer{padding:28px 0 90px;color:var(--mut);font-size:13px;text-align:center;bor
 @media(max-width:480px){.steps{grid-template-columns:1fr}.hero{min-height:70vh}}
 @media(prefers-reduced-motion:reduce){.hero video{display:none}*{transition:none!important;scroll-behavior:auto!important}}
 </style></head><body>
-<header><div class="wrap"><span class="brand">Ragnarok: The New World</span><nav><a href="#jeu">เกม</a><a href="#classes">อาชีพ</a><a href="#monde">โลก</a><a href="#infos">ข้อมูลสำคัญ</a><a href="#faq">คำถามที่พบบ่อย</a></nav><a class="btn sm cta" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" rel="noopener" data-cta="header">เล่นฟรีบน Steam</a></div></header>
+<header><div class="wrap"><span class="brand">Ragnarok: The New World</span><nav><a href="#jeu">เกม</a><a href="#classes">อาชีพ</a><a href="#monde">โลก</a><a href="#infos">ข้อมูลสำคัญ</a><a href="#faq">คำถามที่พบบ่อย</a></nav><a class="lang" hreflang="fr" href="index-fr.html">FR</a><a class="btn sm cta" href="https://store.steampowered.com/app/4212480/Ragnarok_The_New_World/" rel="noopener" data-cta="header">เล่นฟรีบน Steam</a></div></header>
 <main>
 <!-- 1. HERO -->
 <section class="hero" style="padding:0"><img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/cfab5e170a952d5178e993a6f6733b5562175a2d/ss_cfab5e170a952d5178e993a6f6733b5562175a2d.600x338.jpg" srcset="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/cfab5e170a952d5178e993a6f6733b5562175a2d/ss_cfab5e170a952d5178e993a6f6733b5562175a2d.600x338.jpg 600w, https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4212480/cfab5e170a952d5178e993a6f6733b5562175a2d/ss_cfab5e170a952d5178e993a6f6733b5562175a2d.1920x1080.jpg 1920w" sizes="100vw" width="1920" height="1080" alt="Ragnarok: The New World" loading="eager" fetchpriority="high" decoding="async" onerror="this.style.display='none'" class="bg"><video class="bg" id="hv" muted loop playsinline preload="none" aria-hidden="true" data-src="assets/videos/hero.mp4" onerror="this.style.display='none'"></video>
